@@ -1,3 +1,6 @@
 spring:
   application:
     name: MentalHealth_Backend
+
+server:
+  port: 8081
