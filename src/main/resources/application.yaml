@@ -3,7 +3,7 @@ spring:
     name: MentalHealth_Backend
 
 server:
-  port: 8081
+  port: ${PORT:8081}
 
 ncbi:
   tool-name: MentalHealthBackend
